@@ -66,6 +66,9 @@ st.pyplot(fig)
 
 with st.sidebar:
     st.subheader('Lotus-Gold')
+    st.subheader('Lotus-Gold')
+    st.date_input('Current Date')
+    st.time_input('Current Time')
 
 # --- Footer ---
 st.markdown("---")
