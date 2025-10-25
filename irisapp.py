@@ -1,12 +1,15 @@
 import streamlit as st
 import pandas as pd
-# import seaborn as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # --- Streamlit Page Config ---
 st.set_page_config(page_title="Iris Linear Regression", page_icon="🌸", layout="centered")
-
+st.header('Lotus-Gold Consulting')
+st.markdown('---')
+st.image('./2.jpg')
+st.markdown('---')
 # --- Title and Description ---
 st.title("Linear Regression")
 st.write("""
